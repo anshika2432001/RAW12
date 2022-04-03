@@ -1,0 +1,78 @@
+<link rel="stylesheet" type="text/css" href="style12.css">
+
+    <div class="container">
+        <span class="big-circle"></span>
+        <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                    dolorum adipisci recusandae praesentium dicta!
+                </p>
+
+                <div class="info">
+                    <div class="information">
+                        <img src="img/location.png" class="icon" alt="" />
+                        <p>92 Cherry Drive Uniondale, NY 11553</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/email.png" class="icon" alt="" />
+                        <p>lorem@ipsum.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/phone.png" class="icon" alt="" />
+                        <p>123-456-789</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="sub.php" method="post" enctype="multipart/form-data">
+                    <h3 class="title">Submit Stuffs</h3>
+                    <div class="input-container">
+                        <input type="text" name="uname" placeholder="Username" class="input" />
+                        <span>Username</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" placeholder="email" class="input" />
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" placeholder="phone" class="input" />
+                        <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <input type="file" id="real-file" name="file" hidden="hidden" />
+                        <button type="button" id="custom-button">Choose a file</button>
+                        <span style="position: absolute; top: 20px; left:120px; color: black" id="custom-text">No file chosen, yet.</span>
+                    </div>
+                    <br><br><br><br>
+                    <input type="submit" name="submit" class="btn" style="color: red"/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
